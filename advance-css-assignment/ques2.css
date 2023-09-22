@@ -1,0 +1,18 @@
+.item{
+    width: 98vw;
+    height: 15vh;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, pink,rgb(255, 192, 216),purple);
+    border-radius: 5px;
+    color: white;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+p{
+    margin-top: 0px;
+}

@@ -1,0 +1,22 @@
+.container{
+    /* transform: translate(400px,200px); */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: linear-gradient(to bottom,skyblue,blue,purple);
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 4px;
+
+}
+p{
+    margin-top: 2px;
+}
+
+
+

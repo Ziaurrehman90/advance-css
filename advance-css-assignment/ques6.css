@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(10px);
+}
+img{
+    border: 2px black solid;
+    text-align: center;
+    width: 500px;
+   
+}
+h1{
+   text-align: center;
+   text-decoration: underline;
+
+}
+img:hover{
+    filter: grayscale(1);
+}

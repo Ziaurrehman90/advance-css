@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(200px);
+}
+img{
+    border: 2px black solid;
+    text-align: center;
+}
+img:hover{
+    transform: scale(2.3);
+    transition: all 1s ease-in-out;
+}

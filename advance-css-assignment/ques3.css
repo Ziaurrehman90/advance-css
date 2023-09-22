@@ -1,0 +1,39 @@
+.container{
+    height: 50vh;
+    width: 60vh;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    transform: translate(500px,200px);
+    border-radius: 7px;
+    background-image: linear-gradient(to right,skyblue,rgb(4, 0, 255));
+   
+}
+.item1{
+    padding-left: 20px;
+}
+.item2{
+    transform: translate(180px,-50px);
+    color: white;
+    font-size: 1.2rem;
+}
+.item3{
+    padding-left: 20px;
+}
+button{
+    background-image: linear-gradient(90deg,
+    rgba(69, 221, 219, 1) 11%,
+    rgba(51, 194, 91, 1) 100%,
+    rgba(233, 177, 140, 1) 100%
+    
+    );
+    border: none;
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.container:hover{
+    transform: rotate(-45deg);
+}
